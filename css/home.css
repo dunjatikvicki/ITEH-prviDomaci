@@ -1,0 +1,198 @@
+* {
+    font-family: Verdana;
+}
+
+.form-group{
+    width: 350px;
+    font-size: large;
+}
+
+.jumbotron {
+    background-color: rgba(180, 5, 31, 0);
+    float: center;
+    color: rgb(201, 0, 0);
+    text-align: center;
+    
+    
+    background-image: linear-gradient(to right, rgba(56, 3, 3, 0.911), rgba(92, 10, 10, 0.815));
+}
+
+th {
+    text-align: center;
+}
+
+td{
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: rgba(26, 5, 5, 0.842);
+    margin-top: 5px;
+    font-size:large;
+}
+
+body{
+    background-image: url("../img/homeFinal.jpg" );
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    
+
+}
+#btn {
+    color: white;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    
+    
+}
+#btn-dodaj {
+    color: white;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+#btn-pretraga {
+    color: white;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+
+.sir-form{
+    background: #000; 
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 90%;
+    border: 5px solid orange; 
+} 
+.sir-form .form-control{
+    border-radius:1rem;
+}
+
+
+.sir-image{
+    text-align: center;
+}
+
+
+.sir-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+
+
+.prijava-form form{
+    padding: 3%;
+} 
+
+
+.prijava-form form .row{
+    margin-bottom: -7%;
+}
+
+
+ .prijava-form h3{
+    margin-bottom: 8%;
+    margin-top: -5%;
+    text-align: center;
+    color: #0062cc;
+} 
+
+.prijava-form {
+    width: 80%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: rgba(160, 62, 129, 0);
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+#pretraga-input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('https://img.icons8.com/color/search');
+    background-position: 1px 3px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+  }
+
+
+div.modal-content, div.container.sir-form {
+    
+    /* background-image: url("../img/slika.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  */
+}
+
+.row{
+    height: 0px;
+    margin-bottom: 120px;
+
+}  
+
+.col-md-4{
+    margin-top: 18px;
+} 
+
+#pregled{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color:  rgba(92, 10, 10, 0.815);
+    border-color: red;
+    border-width: medium;
+    text-decoration: none;
+    
+    
+    
+}
+
+.thead{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(189, 162, 96);
+    text-decoration: none;
+}
+
+#btn-izmeni{
+    font-size: 18px;
+    border-radius: 28px;
+    background-image: linear-gradient(to right, #3cb0fd,#3498db);
+    border-color: white;
+}
+
+#btn-obrisi{
+    font-size: 18px;
+    border-radius: 28px; 
+    background-image: linear-gradient(to right, #ff704d,#ff5c33);
+    border-color: white;   
+}
+
+
+#btn-sortiraj{
+    font-size: 18px;
+    border-radius: 28px; 
+    background-image: linear-gradient(to right, #9dff4d,#ebff33);
+    border-color: white;   
+}
+
+:placeholder-shown{
+    width: 300px;
+    height: 30px;
+}

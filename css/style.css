@@ -1,0 +1,115 @@
+* {
+    font-family: Montserrat;
+}
+
+body{
+    background-image: url("../img/pocetna.jpg");
+     background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+form {
+    display: block;
+    margin-top: 120px;
+    margin-right: 250px;
+    height: 300px;
+    width: 390px;
+    background-color: hsl(29, 50%, 76%);
+    
+}
+
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 20px 20px;
+  margin: 10px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: large;
+}
+
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+    
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 12px;
+    padding-top: 24px
+}
+
+/* Avatar image */
+img.avatar {
+    width: 15em;
+    height: 20em;
+    border-radius: 5%;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+.main-div {
+    /*background: #ffffff none repeat scroll 0 0;*/
+    border-radius: 2px;
+    margin: 10px auto 30px;
+    max-width: 38%;
+    padding: 50px 70px 70px 71px;
+}
+
+.login-form {
+    /* background-image: url(../img/background.jpg); */
+    text-align: center;
+}
+
+.login-form .btn.btn-primary {
+    margin-top: 10px;
+    margin-right: 0px;
+    background:rgb(102, 5, 5) none repeat scroll 0 0;
+    border-color:rgb(102, 5, 5);
+    font-size: 20px;
+    width: 60%;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+    
+
+}
+
+.login-form .btn.btn-primary:hover {
+    background: rgba(228, 199, 181, 0.897) none repeat scroll 0 0;
+    border-color: black;
+    color: black;
+    font-size: 20px;
+    width: 60%;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+}
+
+.username{
+    margin-left: -10px;
+    font-size: larger;
+    color:black;
+    /*font-weight: bold;*/
+    
+    
+    
+   
+} 
+.password{
+
+    margin-right: -28px;
+    font-size: larger;
+    color:black;
+    font-weight: bold;
+    
+    
+}
